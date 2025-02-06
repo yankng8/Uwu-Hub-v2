@@ -8,6 +8,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Patsk
 local GUI = library:new("UWU HUB V2","[ Feito Por Yan ]")
 local Tab1 = GUI:Tap("Aim")
 local Tab2 = GUI:Tap("Visual")
+local Tab3 = GUI:Tap("Misc")
 
 Tab1:Button("Aimbot",function()
     aim = loadstring(game:HttpGet("https://raw.githubusercontent.com/yankng8/paneleiro-menu/refs/heads/main/script"))()
@@ -31,4 +32,8 @@ end)
 
 Tab2:Button("Skeleton",function()
     esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/refs/heads/main/ESP/Skeleton/Example"))()
+end)
+
+Tab3:Button("Yan Cheats",function()
+    yan = loadstring(game:HttpGet("https://raw.githubusercontent.com/yankng8/yancheats/refs/heads/main/yan"))()
 end)
