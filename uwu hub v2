@@ -1,0 +1,34 @@
+local notif = loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/notiflib/main/main"))()
+
+
+notif:Notification("Uwu Hub V2","Esta Carregando Espere","GothamSemibold","Gotham",5) -- title: <string> description: <string> title font: <string> description font: <string> notification show time: <number>
+
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Patskorn/GUI/main/Copy-SynapOver.lua"))()
+
+local GUI = library:new("UWU HUB V2","[ RightControl ]")
+local Tab1 = GUI:Tap("Aim")
+local Tab2 = GUI:Tap("Visual")
+
+Tab1:Button("Aimbot",function()
+    aim = loadstring(game:HttpGet("https://raw.githubusercontent.com/yankng8/paneleiro-menu/refs/heads/main/script"))()
+end)
+
+Tab2:Button("CornerBox",function()
+    esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/refs/heads/main/ESP/Cornerbox/Example"))()
+end)
+
+Tab2:Button("Arrow",function()
+    esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/yankng8/paneleiro-menu/refs/heads/main/arrow"))()
+end)
+
+Tab2:Button("Name",function()
+    esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/refs/heads/main/ESP/Name/Example"))()
+end)
+
+Tab2:Button("Radar",function()
+    esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/refs/heads/main/ESP/Radar/Example"))()
+end)
+
+Tab2:Button("Skeleton",function()
+    esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/refs/heads/main/ESP/Skeleton/Example"))()
+end)
